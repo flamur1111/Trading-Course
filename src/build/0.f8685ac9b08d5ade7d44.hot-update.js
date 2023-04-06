@@ -1,0 +1,19 @@
+self["webpackHotUpdatees6_react"](0,{
+
+/***/ 24:
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Admin\\Desktop\\Projekti Final\\01_Exercise_1\\js\\app.js: Unexpected token (30:12)\n\n\u001b[0m \u001b[90m 28 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m\"/\"\u001b[39m element\u001b[33m=\u001b[39m{\u001b[33m<\u001b[39m\u001b[33mWrapper\u001b[39m \u001b[35m/>} /\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m\"/about\"\u001b[39m element\u001b[33m=\u001b[39m{\u001b[33m<\u001b[39m\u001b[33mAboutUs\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m}\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 30 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m\"/courses\"\u001b[39m element\u001b[33m=\u001b[39m{\u001b[33m<\u001b[39m\u001b[33mAddCourse\u001b[39m\u001b[35m/>} /\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33mRoute\u001b[39m path\u001b[33m=\u001b[39m\u001b[32m\"/Login\"\u001b[39m element\u001b[33m=\u001b[39m{\u001b[33m<\u001b[39m\u001b[33mLoginPage\u001b[39m\u001b[35m/>} /\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mRoutes\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m             \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mHashRouter\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at instantiate (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:653:32)\n    at constructor (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:947:12)\n    at JSXParserMixin.raise (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:3261:19)\n    at JSXParserMixin.unexpected (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:3291:16)\n    at JSXParserMixin.jsxParseIdentifier (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6791:12)\n    at JSXParserMixin.jsxParseNamespacedName (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6798:23)\n    at JSXParserMixin.jsxParseAttribute (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6878:22)\n    at JSXParserMixin.jsxParseOpeningElementAfterName (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6893:28)\n    at JSXParserMixin.jsxParseOpeningElementAt (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6888:17)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\Admin\\Desktop\\Projekti Final\\node_modules\\@babel\\parser\\lib\\index.js:6912:33)");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("6265263ab03338062237")
+/******/ })();
+/******/ 
+/******/ }
+);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5mODY4NWFjOWIwOGQ1YWRlN2Q0NC5ob3QtdXBkYXRlLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7VUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL2VzNi1yZWFjdC93ZWJwYWNrL3J1bnRpbWUvZ2V0RnVsbEhhc2giXSwic291cmNlc0NvbnRlbnQiOlsiX193ZWJwYWNrX3JlcXVpcmVfXy5oID0gKCkgPT4gKFwiNjI2NTI2M2FiMDMzMzgwNjIyMzdcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=

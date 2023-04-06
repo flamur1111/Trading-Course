@@ -1,0 +1,476 @@
+body {
+    background-color: rgb(252, 250, 249);
+    margin: 0 auto;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+ }
+ .logo h1 a {
+    background-color: rgba(10, 10, 10, 0.788);
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+ }
+ .logo span {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(87, 82, 82);
+    font-family: 'Open sans','sans serif';
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(11, 102, 102, 0.644);
+  }
+
+ .lis {
+  display: flex;
+  margin-right: 10px;
+    color: #A5A5A5;
+    font-weight: 700;
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    list-style: none;
+   }
+   .home {
+    padding: 10px;
+  }
+  .home:hover {
+    border-bottom: 4px solid #08A6E4;
+}
+.lis a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  
+}
+
+
+ 
+ 
+ 
+
+ .mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+  }
+  
+  .element img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+  }
+ .element {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+}
+hr {
+  border: 4px double rgb(236, 208, 171);
+}
+.card{
+    width: 30%;
+    margin: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+.cardbody ul {
+  display: flex;
+  margin-right: 50px;
+  flex-direction: column;
+}
+.cardbody ul li {
+    list-style: none;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+    max-width: 100%;
+    height: 250px;
+}
+.cardbody {
+    padding: 20px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+}
+.cardbody .para1 {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(42, 100, 42);
+}
+.cardbody ul li {
+    font-size: large;
+    color: #474545;
+}
+.cardbody button {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Open Sans', 'sans serif';
+    color: rgb(87, 82, 82);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.cardbody button:hover {
+    background-color: rgb(12, 12, 12);
+            border-radius: 10px;
+            color: white;
+
+}
+.more {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+.head::before {
+  content: "";
+  border-left: 4px dotted rgb(236, 208, 171);
+  height: 80%;
+  position: absolute;
+  left: 43%;
+  transform: translateX(-50%);
+}
+.right {
+    width: 50%;
+}
+.right h1 {
+    position: relative;
+    bottom: 15px;
+    font-weight: bold;
+}
+.right p {
+    position: relative;
+    bottom: 10px;
+    color: rgb(87, 82, 82);
+    font-size: large;
+    font-family: 'Open sans';
+}
+.right span {
+    position: relative;
+    bottom: 10px;
+    color: rgb(87, 82, 82);
+    font-size: large;
+    font-family: 'Open sans';
+}
+.right button {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Open Sans', 'sans serif';
+    color: rgb(87, 82, 82);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.right button:hover {
+    background-color: rgb(12, 12, 12);
+            border-radius: 10px;
+            color: white;
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+.photos {
+  display: flex;
+    flex-direction: column;
+  
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.footer-container {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+   
+  }
+  
+  .footer-info {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+  }
+  .FootUl {
+    display: block;
+  }
+  
+  
+  .social-media, .address {
+    flex-basis: calc(50% - 20px); 
+  }
+  .social-media {
+    margin-left: 100px;
+  }
+  .address {
+    margin-left: 100px;
+  }
+  
+  .social-media ul, .address ul {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    column-count: 2; 
+  }
+
+  
+  .social-media li, .address li {
+    margin-bottom: 8px;
+  }
+  
+  .social-media a, .address li {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #ccc;
+  }
+  
+  
+  .social-media h3 {
+    font-size: 20px;
+  }
+  .address h3 {
+    font-size: 20px;
+  }
+  .GoTop {
+    position: fixed;
+    cursor: pointer;
+    bottom: 20px;
+    right: 30px;
+    background-color: rgba(11, 102, 102, 0.644);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px
+  }
+
+  .newsletter {
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .newsletter label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .newsletter input[type="email"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .newsletter button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .newsletter button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .addcourse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(11, 102, 102, 0.644); 
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 30%;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #6c63ff;
+  }
+  
+  button[type="submit"] {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #5245cc;
+  }
+
+  
+  
+  
+
+
+
+
+
+
+  .loginpage {
+    display: flex;
+    border-radius: 10px;
+    margin: 50px 80px;
+    margin-left: 35%;
+    height: 465px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    border: 3px dotted rgb(247, 219, 182);
+  }
+  
+  h2 {
+    font-size: 40px;
+    
+  }
+  
+  input[type="username"],
+  input[type="password"]
+   {
+    padding: 0.5rem;
+    margin: 10px;
+    border-radius: 0.25rem;
+    width: 60%;
+    border: 1px solid black;
+
+    
+  }
+  input[type="username"]:focus,
+  input[type="password"]:focus {
+    background-color: #cecdcd;
+  }
+
+  
+  input[type="submit"] {
+    color: black;
+    width: 20%;
+    padding: 0.5rem;
+    margin-bottom: 100px;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(11, 102, 102, 0.644);
+  }
+  .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .about-us {
+    text-align: center;
+    }
+ .about-us .imfot {
+  border: 3px dotted rgb(247, 219, 182);
+  width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.box-container div {
+  text-align: -webkit-center ;
+  border: 3px dotted rgb(247, 219, 182);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.box-container div p {
+  width: 90%;
+}
+.box-container div img {
+  border-radius: 50%;
+}

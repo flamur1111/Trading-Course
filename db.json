@@ -1,0 +1,20 @@
+{
+  "cars": [
+    {
+      "img": "https://www.ironfx.com/wp-content/uploads/2022/02/Best-Forex-Tradin-Broker.jpg",
+      "price": "19.99$",
+      "title": "Premium",
+      "description": "SDGSGADAGDSG",
+      "id": 1
+    },
+    {
+      "img": "https://www.ironfx.com/wp-content/uploads/2022/02/Best-Forex-Tradin-Broker.jpg",
+      "price": "19.99$",
+      "title": "Premium",
+      "description": "HDSGASGASGASDGA",
+      "id": 2
+    }
+    
+    
+  ]
+}
