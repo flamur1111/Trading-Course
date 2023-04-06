@@ -3,12 +3,6 @@ body {
     margin: 0 auto;
     padding: 0px;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 .logo {
     display: flex;
     align-items: center;
@@ -57,11 +51,6 @@ body {
   margin-left: 10px;
   
 }
-
-
- 
- 
- 
 
  .mainbox {
     display: flex;
@@ -151,11 +140,7 @@ img {
             color: white;
 
 }
-.more {
-    display: flex;
-    background-color: white;
-    border-radius: 5px;
-}
+
 .head {
     display: flex;
     align-items: center;
@@ -300,12 +285,10 @@ img {
   
   .newsletter h3 {
     font-size: 24px;
-    margin-bottom: 5px;
   }
   
   .newsletter label {
     display: block;
-    margin-bottom: 5px;
     font-size: 18px;
   }
   
@@ -314,14 +297,12 @@ img {
     border-radius: 5px;
     border: none;
     width: 60%;
-    margin-bottom: 5px;
     font-size: 16px;
   }
   
   .newsletter button[type="submit"] {
     background-color: #4CAF50;
     color: white;
-    border: none;
     border-radius: 5px;
     padding: 6px 15px;
     cursor: pointer;
@@ -392,11 +373,6 @@ img {
   
   
 
-
-
-
-
-
   .loginpage {
     display: flex;
     border-radius: 10px;
@@ -430,8 +406,6 @@ img {
   input[type="password"]:focus {
     background-color: #cecdcd;
   }
-
-  
   input[type="submit"] {
     color: black;
     width: 20%;
@@ -440,7 +414,6 @@ img {
     border-radius: 0.25rem;
     border: 1px solid black;
   }
-  
   input[type="submit"]:hover {
     background-color: rgba(11, 102, 102, 0.644);
   }
@@ -450,7 +423,6 @@ img {
     justify-content: space-around;
     text-align: center;
   }
-
   .about-us {
     text-align: center;
     }
@@ -461,16 +433,46 @@ img {
     flex-direction: column;
     margin-left: 10%;
     margin-top: 10px;
+    padding: 10px;
 }
 .box-container div {
   text-align: -webkit-center ;
   border: 3px dotted rgb(247, 219, 182);
   border-radius: 10px;
   margin-bottom: 10px;
+  padding: 10px;
 }
 .box-container div p {
   width: 90%;
 }
 .box-container div img {
   border-radius: 50%;
+}
+.contactform {
+  display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    margin-left: 34%;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px dotted rgb(247, 219, 182);
+}
+.contactform button { 
+  color: black;
+    width: 20%;
+    padding: 0.5rem;
+    margin-bottom: 15px;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    background-color: gainsboro;
+}
+.contactform button:hover {
+  background-color: rgba(11, 102, 102, 0.644);
+}
+p .message1 {
+  font-size: 30px;
+  font-weight: bolder;
+  border: 1px solid rgb(247, 219, 182);
 }

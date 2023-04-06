@@ -6,7 +6,7 @@ function LearnMore () {
   return (
     <>
           <hr></hr>
-    <div class="more">
+    
       <div class="head">
         <div class="left">
           <div class="photos">
@@ -27,7 +27,7 @@ function LearnMore () {
           </button>
         </div>
       </div>
-    </div>
+    
     </>
   )
 }

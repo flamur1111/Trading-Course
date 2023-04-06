@@ -39,7 +39,7 @@ function Card () {
     return (
         <>
             <hr></hr>
-            <div className="container" id="prices">
+            
                 <div className="section">
                    {
                     data.length ?
@@ -62,7 +62,7 @@ function Card () {
                    }
 
                 </div>
-            </div>
+            
         </>
     )
   };

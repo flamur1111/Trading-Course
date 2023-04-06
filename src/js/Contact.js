@@ -1,67 +1,58 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
+import React from 'react';
 
 function ContactForm() {
-  const API = "http://localhost:3000";
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [messageSent, setMessageSent] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [messageSent, setMessageSent] = useState('');
 
-  const handleNameChange = (event) => {
-    setName(event.target.value);
-  }
-
-  const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  }
-
-  const handleMessageChange = (event) => {
-    setMessage(event.target.value);
-  }
-
-  const handleSubmit = async(event) => {
+ 
+  function handleSubmit(event) {
     event.preventDefault();
-    // Use fetch() or Axios to send form data to server
-    const data = {
-      name: name,
-      email: email,
-      message: message
-    }
-    await fetch(`${API}/cars`, {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: {
-        "Content-Type": "application/json"
-      }
-    })
-      .then(response => response.json())
-      .then(data => {
-        console.log(data);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    // Handle form submission, e.g. send data to backend
     setMessageSent(true);
+    setSubmitted(true);
+
   }
+
+  useEffect(() => {
+    if (submitted) {
+      const timer = setTimeout(() => {
+        setSubmitted(false);
+        setMessageSent(false);
+        setName('');
+        setEmail('');
+        setMessage('');
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [submitted]);
 
 
   return (
-    <>
-      <form className='contactform' onSubmit={handleSubmit}>
-        <h1>Contact Us</h1>
-      {messageSent && <p>Message Sent</p>}
-        <label type="name" >Name</label>
-        <input type="text" id="name" name="name" placeholder='Your Name' value={name} onChange={handleNameChange} required />
 
-        <label type="email" >Email</label>
-        <input type="email" id="email" name="email" placeholder='Your Email' value={email} onChange={handleEmailChange} required />
-
-        <label type="message">Message</label>
-        <textarea id="message" name="message" placeholder='Your Message' value={message} onChange={handleMessageChange} required></textarea>
-
-        <button type="submit">Submit</button>
-      </form>
-    </>
+    
+    <form className='contactform' onSubmit={handleSubmit}>
+              <h1>Contact Us</h1>
+      {messageSent && <p className='message1'>Message Sent</p>}
+          <label>
+            Name:
+            <input type="text" value={name} onChange={event => setName(event.target.value)} required />
+          </label>
+          <label>
+            Email:
+            <input type="email" value={email} onChange={event => setEmail(event.target.value)} required />
+          </label>
+          <label>
+            Message:
+            <textarea value={message} onChange={event => setMessage(event.target.value)} required />
+          </label>
+          <button type="submit">Submit</button>
+        
+      
+    </form>
   );
 }
 

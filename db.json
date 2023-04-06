@@ -3,18 +3,24 @@
     {
       "img": "https://www.ironfx.com/wp-content/uploads/2022/02/Best-Forex-Tradin-Broker.jpg",
       "price": "19.99$",
-      "title": "Premium",
-      "description": "SDGSGADAGDSG",
+      "title": "Basic",
+      "description": "100 Trades/Month\nJournal\nReports\nSharing",
       "id": 1
     },
     {
-      "img": "https://www.ironfx.com/wp-content/uploads/2022/02/Best-Forex-Tradin-Broker.jpg",
-      "price": "19.99$",
-      "title": "Premium",
-      "description": "HDSGASGASGASDGA",
+      "img": "https://e0.pxfuel.com/wallpapers/159/997/desktop-wallpaper-forex-trading.jpg",
+      "price": "49.99$",
+      "title": "Standard",
+      "description": "Unlimited Trades\nEnhanced Journal\nAdvanced Reports\nSharing",
       "id": 2
+    },
+    {
+      "img": "https://img.trading-education.com/article/16779344597133cc5e411677934459_resized.jpg",
+      "price": "99.99$",
+      "title": "Premium",
+      "description": "Unlimited Trades\nStocks, Options, Futures, Forex\nRisk Analysis\nCommission/Fees",
+      "id": 3
     }
-    
     
   ]
 }
