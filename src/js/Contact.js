@@ -8,7 +8,7 @@ function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [messageSent, setMessageSent] = useState('');
 
- 
+
   function handleSubmit(event) {
     event.preventDefault();
     // Handle form submission, e.g. send data to backend
@@ -33,25 +33,25 @@ function ContactForm() {
 
   return (
 
-    
+
     <form className='contactform' onSubmit={handleSubmit}>
-              <h1>Contact Us</h1>
-      {messageSent && <p className='message1'>Message Sent</p>}
-          <label>
-            Name:
-            <input type="text" value={name} onChange={event => setName(event.target.value)} required />
-          </label>
-          <label>
-            Email:
-            <input type="email" value={email} onChange={event => setEmail(event.target.value)} required />
-          </label>
-          <label>
-            Message:
-            <textarea value={message} onChange={event => setMessage(event.target.value)} required />
-          </label>
-          <button type="submit">Submit</button>
-        
-      
+      <h1 className='contactus'>Contact Us</h1>
+      {messageSent && <span className='message'><strong>Message Sent</strong></span>}
+      <label>
+        Name:
+        <input type="text" value={name} onChange={event => setName(event.target.value)} required />
+      </label>
+      <label>
+        Email:
+        <input type="email" value={email} onChange={event => setEmail(event.target.value)} required />
+      </label>
+      <label>
+        Message:
+        <textarea value={message} onChange={event => setMessage(event.target.value)} required />
+      </label>
+      <button type="submit">Submit</button>
+
+
     </form>
   );
 }

@@ -4,12 +4,12 @@ import MainBox from "./MainBox";
 import Card from "./Card";
 
 
-const Wrapper = () =>  {
+const Wrapper = () => {
     return (
         <>
-        <MainBox/>
-        <LearnMore/>
-        <Card/>
+            <MainBox />
+            <LearnMore />
+            <Card />
         </>
     )
 }

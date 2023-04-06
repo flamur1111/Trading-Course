@@ -24,7 +24,7 @@ function AddCourse() {
     setMessage(event.target.value);
   }
 
-  const handleSubmit = async(event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     // Use fetch() or Axios to send form data to server
     const data = {
@@ -47,26 +47,26 @@ function AddCourse() {
       .catch(error => {
         console.log(error);
       });
-      window.location.href = '/';
-      }
+    window.location.href = '/';
+  }
 
 
   return (
     <>
       <form className='addcourse' onSubmit={handleSubmit}>
         <h1>Add Courses</h1>
-      {messageSent && <p>Message Sent</p>}
+        {messageSent && <p>Message Sent</p>}
         <label type="name" >Image</label>
-        <input type="text" id="name" name="name"  value={name} onChange={handleNameChange} required />
+        <input type="text" id="name" name="name" value={name} onChange={handleNameChange} required />
 
         <label type="email" >Type</label>
-        <input type="text" id="text" name="text"  value={text} onChange={handleEmailChange} required />
+        <input type="text" id="text" name="text" value={text} onChange={handleEmailChange} required />
 
         <label type="number" >Price</label>
-        <input type="text" id="number" name="number"  value={price} onChange={handlePriceChange} required />
+        <input type="text" id="number" name="number" value={price} onChange={handlePriceChange} required />
 
         <label type="message">Description</label>
-        <textarea id="message" name="message"  value={message} onChange={handleMessageChange} required></textarea>
+        <textarea id="message" name="message" value={message} onChange={handleMessageChange} required></textarea>
 
         <button type="submit">Submit</button>
       </form>
